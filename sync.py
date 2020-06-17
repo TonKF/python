@@ -17,5 +17,3 @@ worksheet = doc.worksheet('sheet1')
 
 SYNC = subprocess.check_output("cat ~/python/sync.log",shell=True)
 DATE = subprocess.check_output("cat ~/python/date.log",shell=True)
-worksheet.update_acell('C7', SYNC)
-worksheet.update_acell('J7', DATE)
