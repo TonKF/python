@@ -17,5 +17,3 @@ worksheet = doc.worksheet('sheet1')
 
 ADNL = subprocess.check_output("cat ~/python/adnl.log",shell=True)
 DATE = subprocess.check_output("cat ~/python/date.log",shell=True)
-worksheet.update_acell('F7', ADNL)
-worksheet.update_acell('G7', DATE)
