@@ -16,5 +16,3 @@ doc = gc.open_by_url(spreadsheet_url)
 worksheet = doc.worksheet('sheet1')
 
 RAW = subprocess.check_output("cat ~/python/raw.log",shell=True)
-worksheet.update_acell('L7', RAW)
-
